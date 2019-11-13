@@ -1,0 +1,22 @@
+{
+  "name": "ottg-node",
+  "version": "1.0.0",
+  "description": "on the table gaming node,js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jroze, on the table gaming, LLC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mongoose": "^5.7.10",
+    "path": "^0.12.7",
+    "wordpress": "^1.4.1"
+  }
+}
