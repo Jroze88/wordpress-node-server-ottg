@@ -1,0 +1,19 @@
+Web scraper for use with OTTG's WordPress site. 
+Run from the wordpress's own Apache server, 
+all contributors will have their latest articles, titles, images, etc scraped
+and re-constructed into a WordPress posting.
+
+WordPress API sucks.
+
+WordPress API constructs article + title, seperate post for image, 
+image is downloaded by scraper, some contributors get a custom image, Title is parsed, text is added to generic thumbnail and
+headline image is created for each post dynamically
+binds image post as headline to the existing text post in a net of promises (thanks wordpress)
+
+Youtube Videos insert no body into the article but a span with a CLASS containing the URL of that video. 
+WordPress client-side script in the header redirects any article wherein that CLASS is found to the URL that is it's ID
+--- This way visitors are reourted to the channel itself and YouTube Contributors still get traffic to see all their other
+videos, posts, etc
+
+
+By Jano Roze
